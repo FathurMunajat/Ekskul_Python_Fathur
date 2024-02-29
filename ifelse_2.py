@@ -1,8 +1,9 @@
-nilai = 50
+cuaca = input('cuaca : ')
 
-print('Nilai anda adalah:', nilai, '\n')
 
-if nilai >= 70:
-  print('Selamat, anda lulus!')
+print('cuaca anda adalah:', cuaca, '\n')
+
+if cuaca == "cerah":
+  print('cuaca hari ini',cuaca ,'= naik motor')
 else:
-  print('Maaf, anda tidak lulus.')
+  print('cuaca hari ini', cuaca,'= naik mobil')
